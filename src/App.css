@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 1px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+  
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
